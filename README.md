@@ -1,4 +1,4 @@
-It is a mini routing system in which the program will read the network.csv file and then make a network and calculate routing tables of all routers using dijkstra algorithm.
+It is a mini routing system in which the program will read the network.csv file by default and then make a network and calculate routing tables of all routers using dijkstra algorithm.
 It has the following commands:
 1. send_msg will take messageId:priority:source:destination:payload.
   It will calculate the shortest path using the destination's parent and destination's parent's parent and so on. And when it reaches the router then It will send message the next destination.
